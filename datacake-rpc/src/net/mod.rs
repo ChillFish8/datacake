@@ -4,6 +4,8 @@ mod status;
 
 #[cfg(feature = "simulation")]
 mod simulation;
+mod quic_connector;
+mod proto;
 
 use std::io;
 
